@@ -4,12 +4,13 @@
     "test": "prysk tests",
     "clean": "rm -rf tests/**/*.t.err",
     "test:interactive": "PRYSK_INTERACTIVE=true prysk tests",
-    "test:parallel": "prysk"
+    "test:parallel": "prysk-parallel"
   },
   "dependencies": {
     "turborepo-tests-helpers": "workspace:*",
     "@turbo/exe-stub": "workspace:*",
-    "prysk": "workspace:*"
+    "prysk": "workspace:*",
+    "prysk-parallel": "workspace:*"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
